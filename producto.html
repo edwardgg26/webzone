@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebZone - Acerca de Nosotros</title>
+
+    <!--Normalize-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Estilos-->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="centrado-flex container">
+        <a class="logo" href="index.html"><span class="logo--colorVariation">Web</span>Zone</a>
+    </header>
+
+    <div class="bg-main-variation">
+        <nav class="container centrado-flex">
+            <a class="nav__link" href="index.html">Tienda</a>
+            <a class="nav__link" href="nosotros.html">Nosotros</a>
+        </nav>
+    </div>
+
+    <main class="main container main--descProducto max-width-1000">
+        <h2 class="main__title main__title--descProducto">Camiseta VueJS</h2>
+
+        <img loading="lazy" class="productoImagen" src="img/camisetas/1.jpg">
+
+        <div class="descProducto__descripcion">
+            <p class="descProducto__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quo dolorem, quibusdam obcaecati nobis qui animi quas ipsa quos, necessitatibus quam sapiente corporis? Incidunt expedita quod est, provident voluptate eos?</p>
+        </div>
+
+        <form>
+            <fieldset class="productoFormulario">
+                <div class="productoFormulario__campos">
+                    <label class="productoFormulario__campos__etiqueta">Talla</label>
+                    <select class="productoFormulario__campos__lista">
+                        <option class="productoFormulario__campos__lista__opcion">S</option>
+                        <option class="productoFormulario__campos__lista__opcion">M</option>
+                        <option class="productoFormulario__campos__lista__opcion">L</option>
+                        <option class="productoFormulario__campos__lista__opcion">XL</option>
+                        <option class="productoFormulario__campos__lista__opcion">XXL</option>
+                    </select>
+                </div>
+
+                <div class="productoFormulario__campos">
+                    <label class="productoFormulario__campos__etiqueta">Género</label>
+                    <select class="productoFormulario__campos__lista">
+                        <option class="productoFormulario__campos__lista__opcion">Masculino</option>
+                        <option class="productoFormulario__campos__lista__opcion">Femenino</option>
+                    </select>
+                </div>         
+                <input class="boton" type="submit" value="Agregar al Carrito">
+            </fieldset>
+        </form>
+    </main>
+
+    <div class="bg-main-variation">
+        <footer class="footer centrado-flex">
+            <p class="footer__text">WebZone - Creado por EG Dev 2023</p>
+        </footer>
+    </div>
+</body>
+</html>
