@@ -8,13 +8,13 @@
 
     --blanco: white;
     --negro: black;
-    --fuentePrincipal: monospace;
+    --fuentePrincipal: 'Righteous', sans-serif;
 }
 
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-    font-family: 'Righteous', cursive;
+    font-family: var(--fuentePrincipal);
 }
 
 *, *:before, *:after {
